@@ -1,6 +1,6 @@
 # HashCheck
 
-一个轻量级 Windows 原生哈希校验工具，支持拖放文件/URL、MD5/SHA256 校验、文件下载与哈希比对。使用Deepseek + Opencode开发
+一个轻量级 Windows 原生哈希校验工具，支持拖放文件/URL、MD5/SHA256 校验、文件下载与哈希比对。使用Deepseek + Opencode开发。
 
 ## 功能
 
