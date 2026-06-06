@@ -1,6 +1,6 @@
 # HashCheck
 
-一个轻量级 Windows 原生哈希校验工具，支持拖放文件/URL、MD5/SHA256 校验、文件下载与哈希比对。使用Deepseek + Opencode开发。
+一个轻量级 Windows 原生哈希校验工具使用 WIN32 API 开发，支持拖放文件/URL、MD5/SHA256 校验、文件下载与哈希比对。使用Deepseek + Opencode开发。
 
 ## 功能
 
@@ -65,16 +65,6 @@ build.bat
 ```powershell
 build.ps1
 ```
-
-### 链接库
-
-| 库 | 用途 |
-|----|------|
-| `advapi32` | CryptoAPI 哈希计算 |
-| `gdi32` | 窗口绘制（字体、画笔、画刷） |
-| `ole32` | COM 初始化与拖放支持 |
-| `winhttp` | HTTPS 文件下载 |
-| `uuid` | COM 接口 GUID 定义 |
 
 ## 许可
 
