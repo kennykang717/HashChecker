@@ -14,7 +14,7 @@
 
 ## 下载
 
-从 [Releases](https://github.com/kennykang717/HashCheck/releases) 页面下载最新版本的 `hashcheck.exe`，单文件运行，无需安装。
+从 [Releases](https://github.com/kennykang717/HashChecker/releases) 页面下载最新版本的 `hashcheck.exe`，单文件运行，无需安装。
 
 ## 使用方法
 
