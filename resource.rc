@@ -1,0 +1,65 @@
+#include <windows.h>
+#include "resource.h"
+
+#define RT_MANIFEST 24
+#define CREATEPROCESS_MANIFEST_RESOURCE_ID 1
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "hashcheck.manifest"
+
+IDI_MAIN ICON "favicon.ico"
+
+LANGUAGE 0, 0
+
+IDD_VERIFY DIALOGEX 0, 0, 450, 175
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HashCheck - 哈希验证"
+FONT 9, "Microsoft YaHei", 400, 0, 0x0
+BEGIN
+    LTEXT "文件路径:", -1, 10, 8, 45, 10
+    LTEXT "", IDC_FILE_TEXT, 55, 8, 385, 10
+
+    LTEXT "MD5:", -1, 10, 26, 40, 10
+    LTEXT "", IDC_MD5_TEXT, 52, 26, 335, 10
+    PUSHBUTTON "复制", IDC_COPY_MD5_BTN, 392, 24, 48, 14
+
+    LTEXT "SHA256:", -1, 10, 42, 40, 10
+    LTEXT "", IDC_SHA256_TEXT, 52, 42, 335, 10
+    PUSHBUTTON "复制", IDC_COPY_SHA256_BTN, 392, 40, 48, 14
+
+    GROUPBOX "验证哈希值", -1, 10, 58, 430, 65
+    LTEXT "请输入要比较的哈希值：", -1, 20, 72, 200, 10
+    EDITTEXT IDC_HASH_EDIT, 20, 86, 362, 14, ES_AUTOHSCROLL | WS_BORDER
+    PUSHBUTTON "粘贴", IDC_PASTE_BTN, 387, 84, 44, 16
+    LTEXT "", IDC_RESULT, 20, 106, 410, 14
+
+    DEFPUSHBUTTON "验证(&V)", IDC_VERIFY_BTN, 160, 140, 60, 20
+    PUSHBUTTON "退出(&X)", IDCANCEL, 230, 140, 60, 20
+END
+
+IDD_SETTINGS DIALOGEX 0, 0, 380, 310
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HashCheck - 设置"
+FONT 9, "Microsoft YaHei", 400, 0, 0x0
+BEGIN
+    GROUPBOX "使用说明", -1, 10, 8, 360, 50
+    LTEXT "从浏览器拖入下载链接，或拖放本地文件到悬浮窗", -1, 20, 22, 340, 12
+    LTEXT "在弹出的窗口中粘贴哈希值进行比较", -1, 20, 36, 340, 12
+    LTEXT "也可以在文件上右键，选择「检查哈希」快速操作", -1, 20, 50, 340, 12
+
+    GROUPBOX "选项", -1, 10, 64, 360, 60
+    CONTROL "添加到右键菜单(&H)", IDC_MENU_CHECKBOX, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 20, 78, 200, 20
+    CONTROL "启用日志(&L)", IDC_LOG_CHECKBOX, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 20, 96, 200, 20
+
+    GROUPBOX "缓存位置", -1, 10, 130, 360, 50
+    LTEXT "缓存目录：", -1, 20, 145, 60, 10
+    EDITTEXT IDC_CACHE_PATH, 80, 143, 210, 14, ES_AUTOHSCROLL | WS_BORDER | ES_READONLY
+    PUSHBUTTON "浏览...", IDC_CACHE_BROWSE_BTN, 295, 141, 50, 16
+
+    GROUPBOX "关于", -1, 10, 186, 360, 95
+    LTEXT "HashCheck v1.0", -1, 20, 200, 340, 12
+    LTEXT "基于 Windows CryptoAPI", -1, 20, 216, 340, 12
+    CONTROL "项目主页：<A HREF=""https://github.com/kennykang717/HashChecker"">https://github.com/kennykang717/HashChecker</A>", IDC_ABOUT_LINK, "SysLink", WS_TABSTOP, 20, 232, 340, 14
+    LTEXT "本项目使用 Deepseek 开发", -1, 20, 250, 340, 12
+
+    PUSHBUTTON "关闭", IDCANCEL, 160, 286, 60, 20
+END

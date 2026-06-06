@@ -1,0 +1,59 @@
+DropTarget_Drop enter
+  CF_HDROP ok
+  filePath=G:\Desktop\
+DropTarget_Drop return (CF_HDROP)
+DropTarget_Drop enter
+  CF_HDROP failed
+  UniformResourceLocatorW ok
+  url=https://mirrors4.tuna.tsinghua.edu.cn/cygwin/x86_64/release/aide/aide-0.17.3-1-src.hint
+DownloadUrlToFile start: url=https://mirrors4.tuna.tsinghua.edu.cn/cygwin/x86_64/release/aide/aide-0.17.3-1-src.hint
+  lastSlash=/aide-0.17.3-1-src.hint filename=aide-0.17.3-1-src.hint
+  host=mirrors4.tuna.tsinghua.edu.cn path=/cygwin/x86_64/release/aide/aide-0.17.3-1-src.hint extra=
+  CreateFileW failed
+  destPath=C:\Users\kenny\cache\HashCheck\aide-0.17.3-1-src.hint ok=0
+DropTarget_Drop return (URL)
+--- HashCheck exit ---
+DropTarget_Drop enter
+  CF_HDROP failed
+  UniformResourceLocatorW ok
+  url=https://mirrors4.tuna.tsinghua.edu.cn/cygwin/x86_64/release/aide/aide-0.17.3-1-src.hint
+DownloadUrlToFile start: url=https://mirrors4.tuna.tsinghua.edu.cn/cygwin/x86_64/release/aide/aide-0.17.3-1-src.hint
+  lastSlash=/aide-0.17.3-1-src.hint filename=aide-0.17.3-1-src.hint
+  host=mirrors4.tuna.tsinghua.edu.cn path=/cygwin/x86_64/release/aide/aide-0.17.3-1-src.hint extra=
+  destPath=C:\Users\kenny\AppData\Local\cache\HashCheck\aide-0.17.3-1-src.hint ok=1
+DropTarget_Drop return (URL)
+DropTarget_Drop enter
+  CF_HDROP failed
+  UniformResourceLocatorW ok
+  url=https://mirrors4.tuna.tsinghua.edu.cn/cygwin/x86_64/release/2048-qt/2048-qt-0.1.6-1.hint
+DownloadUrlToFile start: url=https://mirrors4.tuna.tsinghua.edu.cn/cygwin/x86_64/release/2048-qt/2048-qt-0.1.6-1.hint
+  lastSlash=/2048-qt-0.1.6-1.hint filename=2048-qt-0.1.6-1.hint
+  host=mirrors4.tuna.tsinghua.edu.cn path=/cygwin/x86_64/release/2048-qt/2048-qt-0.1.6-1.hint extra=
+  destPath=C:\Users\kenny\AppData\Local\cache\HashCheck\2048-qt-0.1.6-1.hint ok=1
+DropTarget_Drop return (URL)
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+DropTarget_Drop enter
+  CF_HDROP ok
+  filePath=G:\Desktop\
+DropTarget_Drop return (CF_HDROP)
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
+--- HashCheck exit ---
