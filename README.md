@@ -70,7 +70,7 @@ build.ps1
 
 <img src="https://vip.123pan.cn/1812390356/yk6baz03t0l000ddyv3vx8micdzl8qgnDIYPDqD2DdDyApxPAdevAY==.jpg" alt="设置页" style="zoom:50%;" />
 
-<img src="./res/check.jpg" alt="检查页" style="zoom:50%;" />
+<img src="https://vip.123pan.cn/1812390356/ymjew503t0n000ddysef4z62eou59wkaDIYPDqD2DdDyApxPAdevAY==.jpg" alt="检查页" style="zoom:50%;" />
 
 ### 许可
 
