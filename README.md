@@ -66,12 +66,12 @@ build.bat
 build.ps1
 ```
 
-## 许可
-
 ### 预览
 
 <img src="https://raw.githubusercontent.com/kennykang717/HashChecker/main/res/settings.jpg" style="zoom:50%;" />
 
 <img src="https://raw.githubusercontent.com/kennykang717/HashChecker/main/res/check.jpg" alt="检查页" style="zoom:50%;" />
+
+### 许可
 
 本项目基于 MIT 许可证开源。
