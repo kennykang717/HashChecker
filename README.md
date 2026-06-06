@@ -68,7 +68,7 @@ build.ps1
 
 ### 预览
 
-<img src="./res/settings.jpg" alt="设置页" style="zoom:50%;" />
+<img src="https://1812390356.v.123pan.cn/1812390356/37430971" alt="设置页" style="zoom:50%;" />
 
 <img src="./res/check.jpg" alt="检查页" style="zoom:50%;" />
 
