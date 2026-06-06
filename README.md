@@ -68,9 +68,9 @@ build.ps1
 
 ### 预览
 
-<img src="https://raw.githubusercontent.com/kennykang717/HashChecker/main/res/settings.jpg" style="zoom:50%;" />
+<img src="./res/settings.jpg" alt="设置页" style="zoom:50%;" />
 
-<img src="https://raw.githubusercontent.com/kennykang717/HashChecker/main/res/check.jpg" alt="检查页" style="zoom:50%;" />
+<img src="./res/check.jpg" alt="检查页" style="zoom:50%;" />
 
 ### 许可
 
