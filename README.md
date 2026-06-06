@@ -1,6 +1,6 @@
 # HashCheck
 
-一个轻量级 Windows 原生哈希校验工具使用 WIN32 API 开发，支持拖放文件/URL、MD5/SHA256 校验、文件下载与哈希比对。使用Deepseek + Opencode开发。
+一个轻量级 Windows 原生哈希校验工具，使用 WIN32 API 构建。支持拖放文件/URL、MD5/SHA256 校验、文件下载与哈希比对。采用 Deepseek + OpenCode 开发。
 
 ## 功能
 
@@ -67,5 +67,11 @@ build.ps1
 ```
 
 ## 许可
+
+### 预览
+
+<img src="https://raw.githubusercontent.com/kennykang717/HashChecker/main/res/settings.jpg" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/kennykang717/HashChecker/main/res/check.jpg" alt="检查页" style="zoom:50%;" />
 
 本项目基于 MIT 许可证开源。
